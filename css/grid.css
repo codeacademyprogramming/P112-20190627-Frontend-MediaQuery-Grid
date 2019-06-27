@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+.demo {
+    background-color: blueviolet;
+    height: 150px;
+}
+
+
+
+.bg-1 {
+    background-color: aqua;
+}
+.bg-2 {
+    background-color: burlywood;
+}
+.bg-3 {
+    background-color: darkmagenta;
+}
+.bg-4 {
+    background-color: indianred;
+}
+.bg-5 {
+    background-color: lawngreen;
+}
+.bg-6 {
+    background-color: midnightblue;
+}
+
+/* Grid System */
+.setir::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class *= "sutun-"] {
+    float: left;
+    width: 100%;
+}
+
+.sutun-offset-12 {
+    margin-left: 100%;
+}
+.sutun-offset-11 {
+    margin-left: 91.66%;
+}
+.sutun-offset-10 {
+    margin-left: 83.33%;
+}
+
+.sutun-offset-9 {
+    margin-left: 75%;
+}
+
+.sutun-offset-8 {
+    margin-left: 66.66%;
+}
+
+.sutun-offset-7 {
+    margin-left: 58.33%;
+}
+
+.sutun-offset-6 {
+    margin-left: 50%;
+}
+
+.sutun-offset-5 {
+    margin-left: 41.66%;
+}
+
+.sutun-offset-4 {
+    margin-left: 33.33%;
+}
+
+.sutun-offset-3 {
+    margin-left: 25%;
+}
+
+.sutun-offset-2 {
+    margin-left: 16.66%;
+}
+
+.sutun-offset-1 {
+    margin-left: 8.33%;
+}
+
+
+@media only screen and (min-width: 992px) {
+    
+    .sutun-12 {
+        width: 100%;
+    }
+    .sutun-11 {
+        width: 91.66%;
+    }
+    .sutun-10 {
+        width: 83.33%;
+    }
+    .sutun-9 {
+        width: 75%;
+    }
+    .sutun-8 {
+        width: 66.66%;
+    }
+    .sutun-7 {
+        width: 58.33%;
+    }
+    .sutun-6 {
+        width: 50%;
+    }
+    .sutun-5 {
+        width: 41.66%;
+    }
+    .sutun-4 {
+        width: 33.33%;
+    }
+    .sutun-3 {
+        width: 25%;
+    }
+    .sutun-2 {
+        width: 16.66%;
+    }
+    .sutun-1 {
+        width: 8.33%;
+    }
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sutun-p-12 {
+        width: 100%;
+    }
+    .sutun-p-11 {
+        width: 91.66%;
+    }
+    .sutun-p-10 {
+        width: 83.33%;
+    }
+    .sutun-p-9 {
+        width: 75%;
+    }
+    .sutun-p-8 {
+        width: 66.66%;
+    }
+    .sutun-p-7 {
+        width: 58.33%;
+    }
+    .sutun-p-6 {
+        width: 50%;
+    }
+    .sutun-p-5 {
+        width: 41.66%;
+    }
+    .sutun-p-4 {
+        width: 33.33%;
+    }
+    .sutun-p-3 {
+        width: 25%;
+    }
+    .sutun-p-2 {
+        width: 16.66%;
+    }
+    .sutun-p-1 {
+        width: 8.33%;
+    }
+}

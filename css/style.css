@@ -1,0 +1,21 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    font-size: 70px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border-radius: 100%;
+    float: right;
+}
+
+.temizleyen {
+    clear: both;
+}
